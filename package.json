@@ -1,0 +1,24 @@
+{
+  "name": "web-pair",
+  "version": "0.0.1",
+  "description": "A multi functional whatsapp bot Web paircode.",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name s-xd",
+    "stop": "pm2 stop s-xd",
+    "restart": "pm2 restart s-xd"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "@adiwajshing/keyed-db": "latest",
+    "qrcode": "latest",
+    "awesome-phonenumber": "latest",
+    "pino": "latest",
+    "phone": "latest",
+    "body-parser": "latest",
+    "express": "latest",
+    "megajs": "latest",
+    "pm2": "latest",
+    "async-mutex": "latest"
+  }
+}
